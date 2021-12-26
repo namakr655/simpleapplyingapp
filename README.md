@@ -10,3 +10,4 @@
 * Both are independent of each other and can be used seperately.
 * the app in the **main** branch can be used to the applying system of [jobsmonster](https://jobsmonster.me) as well.
 * the **second** branch is much more advanced with Controllers and Modules features.
+* the **third** is better than the other two.

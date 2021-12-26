@@ -8,6 +8,11 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel;
 use Symfony\Component\Routing;
 
+use Tracy\Debugger;
+
+Debugger::enable(Debugger::DETECT, __DIR__ . '/../logs');
+Debugger::$email = 'namankumar80510@gmail.com';
+
 function render_template(Request $request)
 {
     extract($request->attributes->all(), EXTR_SKIP);
