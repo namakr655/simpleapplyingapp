@@ -6,6 +6,10 @@ require_once __DIR__.'/../vendor/autoload.php';
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing;
+use Tracy\Debugger;
+
+Debugger::enable(Debugger::DETECT, __DIR__ . '/../logs');
+Debugger::$email = 'namankumar80510@gmail.com';
 
 $request = Request::createFromGlobals();
 $routes = include __DIR__.'/../src/app.php';
