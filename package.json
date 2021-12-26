@@ -1,0 +1,23 @@
+{
+  "name": "simpleapplyingapp",
+  "version": "1.0.0",
+  "description": "* a simple application built on custom PHP Framework (just for learning purposes).\r * maybe not be fit for production\r * uses the following components:\r   1. tailwind css 3 for designing\r   2. Symfony HTTP Kernel, Routing components\r   3. Nette Debugging tool (**tracy**), caching component, and database core component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namakr655/simpleapplyingapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namakr655/simpleapplyingapp/issues"
+  },
+  "homepage": "https://github.com/namakr655/simpleapplyingapp#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.7"
+  }
+}

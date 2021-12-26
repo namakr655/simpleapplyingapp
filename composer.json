@@ -1,0 +1,23 @@
+{
+    "name": "jobsmonster/simpleapplyingapp",
+    "description": "Simple PHP App built on custom framework for learning purposes only",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jobsmonster\\Simpleapplyingapp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Naman",
+            "email": "07032001nk@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "tracy/tracy": "^2.9",
+        "symfony/http-foundation": "^5.4",
+        "symfony/routing": "^5.4"
+    }
+}
