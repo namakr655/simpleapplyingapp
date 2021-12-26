@@ -7,6 +7,13 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing;
 
+/**
+ * render_template
+ * I DON'T KNOW WHAT IT'S USAGE IS!!
+ *
+ * @param  mixed $request
+ * @return void
+ */
 function render_template($request)
 {
     extract($request->attributes->all(), EXTR_SKIP);
